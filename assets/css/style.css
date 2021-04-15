@@ -28,3 +28,34 @@
     font-size: 27px;
     padding-right: 0.8rem;
 }
+
+/* MAIN */
+
+/* FIRST MAIN */
+.dbg_upgrade {
+    background-color: rgba(8, 11, 18, 1);
+    padding: 3rem 3rem 3.5rem;
+}
+.btn_upgrade > a {
+    padding: 1rem;
+    border: 2px solid white;
+}
+
+/* SECON MAIN */
+.bdg_principal_main {
+    background-color: rgba(20, 25, 34, 1);
+}
+.menu_main {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+/* SONG */
+.song {
+    width: 20%;
+}
+.song > img {
+    width: 100%;
+    padding: 1.5rem;
+}

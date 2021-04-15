@@ -17,70 +17,133 @@
 
 </head>
 <body>
-    <!-- HEADER -->
-    <header>
-        <ul class="nav flex-column bg_black">
-            <li class="nav-item">
-              <a class="nav-link logo py1" href="#">
-                  <img src="./assets/img/logo.svg" alt="logo spotify">
-              </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link home text-muted" href="#">
-                    <img src="./assets/img/home.svg" alt="">
-                    Home
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link cerca text-muted" href="#">
-                    <img src="./assets/img/search.svg" alt="">
-                    Cerca
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link libreria text-muted" href="#">
-                    <img src="./assets/img/libreria.svg" alt="">
-                    La Tua Libreria
-                </a>
-            </li>
-            <h6 class="px-3 pt-3 text-white font-weight-bolder">PLAYLIST</h6>
-            <li class="nav-item pt-1">
-                <a class="nav-link new_playlist text-muted py-0" href="#">
-                    <i class="fas fa-plus-square fa-lg"></i>
-                    Crea Playlist
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-muted" href="#">Nome Playlist</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-muted" href="#">Nome Playlist</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-muted" href="#">Nome Playlist</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-muted" href="#">Nome Playlist</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-muted" href="#">Nome Playlist</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-muted" href="#">Nome Playlist</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-muted" href="#">Nome Playlist</a>
-            </li>
-        </ul>
-    </header>
-    <!-- /HEADER -->
+    <div class="row">
+        
+        <!-- HEADER -->
+        <header class="col-lg-2 bg_black">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link logo py1" href="#">
+                      <img src="./assets/img/logo.svg" alt="logo spotify">
+                  </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link home text-muted" href="#">
+                        <img src="./assets/img/home.svg" alt="">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link cerca text-muted" href="#">
+                        <img src="./assets/img/search.svg" alt="">
+                        Cerca
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link libreria text-muted" href="#">
+                        <img src="./assets/img/libreria.svg" alt="">
+                        La Tua Libreria
+                    </a>
+                </li>
+                <li><h6 class="px-3 pt-3 text-white font-weight-bolder">PLAYLIST</h6></li>
+                <li class="nav-item pt-1">
+                    <a class="nav-link new_playlist text-muted py-0" href="#">
+                        <i class="fas fa-plus-square fa-lg"></i>
+                        Crea Playlist
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-muted" href="#">Nome Playlist</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-muted" href="#">Nome Playlist</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-muted" href="#">Nome Playlist</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-muted" href="#">Nome Playlist</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-muted" href="#">Nome Playlist</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-muted" href="#">Nome Playlist</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-muted" href="#">Nome Playlist</a>
+                </li>
+             </ul>
+        </header>
+        <!-- /HEADER -->
+            
+
+        <!-- MAIN -->
+
+        <main class="col-lg-10 px-0">
+
+            <!-- FIRST MAIN -->
+            <section class="dbg_upgrade">
+                <div class="btn_upgrade d-flex justify-content-end">
+                    <a class="text-white rounded-pill" href="">EFFETUA L'UPGRADE</a>
+                </div>
+            </section>
+            <!-- /FIRST MAIN -->
 
 
-    <!-- MAIN -->
-    <main>
+            <!-- SECOND MAIN -->
+            <section class="bdg_principal_main">
+                <ul class="col-lg-12 pt-3 menu_main">
+                    <li><a class="text-muted px-2" href="#">IN EVIDENZA</a></li>
+                    <li><a class="text-muted px-2" href="#">PODCAST</a></li>
+                    <li><a class="text-muted px-2" href="#">CLASSIFICHE</a></li>
+                    <li><a class="text-muted px-2" href="#">GENERI E MOOD</a></li>
+                    <li><a class="text-muted px-2" href="#">NUOVE USCITE</a></li>
+                    <li><a class="text-muted px-2" href="#">SCOPRI</a></li>
+                </ul>
+                <h2 class="font-weight-bolder text-white pl-3 py-5">Recently Played</h2>
+                <div class="d-flex col-lg-12">
+                    <div class="song text-center">
+                        <img src="./assets/img/metal_lifting.jpg" alt="">
+                        <h4 class="font-weight-bolder text-white">Heavy Metal</h4>
+                        <p class="text-muted">Subtitle</p>
+                    </div>
+                    <div class="song text-center">
+                        <img src="./assets/img/stranger.jpeg" alt="">
+                        <h4 class="font-weight-bolder text-white">Heavy Metal</h4>
+                        <p class="text-muted">Subtitle</p>
+                    </div>
+                    <div class="song text-center">
+                        <img src="./assets/img/aquietplace.jpeg" alt="">
+                        <h4 class="font-weight-bolder text-white">Heavy Metal</h4>
+                        <p class="text-muted">Subtitle</p>
+                    </div>
+                    <div class="song text-center">
+                        <img src="./assets/img/split.jpeg" alt="">
+                        <h4 class="font-weight-bolder text-white">Heavy Metal</h4>
+                        <p class="text-muted">Subtitle</p>
+                    </div>
+                    <div class="song text-center">
+                        <img src="./assets/img/cure.jpeg" alt="">
+                        <h4 class="font-weight-bolder text-white">Heavy Metal</h4>
+                        <p class="text-muted">Subtitle</p>
+                    </div>
+                    <div class="song text-center">
+                        <img src="./assets/img/sinister.jpeg" alt="">
+                        <h4 class="font-weight-bolder text-white">Heavy Metal</h4>
+                        <p class="text-muted">Subtitle</p>
+                    </div>
+                </div>
+            </section>
+            <!-- /SECOND MAIN -->
 
-    </main>
-    <!-- /MAIN -->
+        </main>
+            <!-- /MAIN -->
+    </div>
+
+
+
+
 
 
     <!-- FOOTER -->
