@@ -51,6 +51,12 @@ main::after {
 .menu_end {
     justify-content: flex-end;
 }
+.nav-link {
+    color: lightslategray;
+}
+.nav-item:hover .nav-link {
+    color: white;
+}
 
 /* content */
 .content {
