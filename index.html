@@ -14,154 +14,203 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <!-- css -->
     <link rel="stylesheet" href="./assets/css/style.css">
-
+    
 </head>
 <body>
+    <div class="container_principal">
+        <main class="">
+            <nav class="nav_black">
+                <ul class="nav flex-column menu_start">
+                    <li class="nav-item py-0">
+                    <a class="nav-link logo py1" href="#">
+                        <img src="./assets/img/logo.svg" alt="logo spotify">
+                    </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link home text-muted" href="#">
+                            <img src="./assets/img/home.svg" alt="">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link cerca text-muted" href="#">
+                            <img src="./assets/img/search.svg" alt="">
+                            Cerca
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link libreria text-muted" href="#">
+                            <img src="./assets/img/libreria.svg" alt="">
+                            La Tua Libreria
+                        </a>
+                    </li>
+                </ul>
+                
+                <h6 class="px-3 pt-3 text-white font-weight-bolder">PLAYLIST</h6>
+
+                <ul class="nav flex-column menu_center">
+                    <li class="nav-item pt-1">
+                        <a class="nav-link new_playlist text-muted py-0" href="#">
+                            <i class="fas fa-plus-square fa-lg"></i>
+                            Crea Playlist
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-muted" href="#">Nome Playlist</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-muted" href="#">Nome Playlist</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-muted" href="#">Nome Playlist</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-muted" href="#">Nome Playlist</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-muted" href="#">Nome Playlist</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-muted" href="#">Nome Playlist</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-muted" href="#">Nome Playlist</a>
+                    </li>
+                </ul>
+                
+                <ul class="nav flex-column users menu_end">
+                    <li class="installa_app nav-item">
+                        <a class="nav-link text-muted" href="#">Installa App</a>
+                    </li>
+                
+                    <li class="nav-item">
+                        <a class="profile nav-link text-muted" href="#">
+                            <img src="./assets/img/profile.svg" alt="">
+                            John Doe
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <div class="content">
+                <section class="dbg_upgrade">
+                    <div class="btn_upgrade d-flex justify-content-end">
+                        <a class="text-white rounded-pill" href="">EFFETUA L'UPGRADE</a>
+                    </div>
+                </section>
+                
+                <section class="bdg_principal_main overflow-auto">
+                    <ul class="pt-3 menu_main">
+                        <li><a class="text-muted px-2" href="#">IN EVIDENZA</a></li>
+                        <li><a class="text-muted px-2" href="#">PODCAST</a></li>
+                        <li><a class="text-muted px-2" href="#">CLASSIFICHE</a></li>
+                        <li><a class="text-muted px-2" href="#">GENERI E MOOD</a></li>
+                        <li><a class="text-muted px-2" href="#">NUOVE USCITE</a></li>
+                        <li><a class="text-muted px-2" href="#">SCOPRI</a></li>
+                    </ul>
+                    
+                    
+                    <h2 class="font-weight-bolder text-white pl-3 py-2">Recently Played</h2>
+                    <div class="recently_album album">
+                        <div class="song text-center">
+                            <img src="./assets/img/metal_lifting.jpg" alt="">
+                            <h4 class="font-weight-bolder text-white">Heavy Metal</h4>
+                            <p class="text-muted">Subtitle</p>
+                        </div>
+                        <div class="song text-center">
+                            <img src="./assets/img/stranger.jpeg" alt="">
+                            <h4 class="font-weight-bolder text-white">Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h4>
+                            <p class="text-muted">Kyle Dixon & Michael Stein</p>
+                        </div>
+                        <div class="song text-center">
+                            <img src="./assets/img/aquietplace.jpeg" alt="">
+                            <h4 class="font-weight-bolder text-white">A quiet place</h4>
+                            <p class="text-muted">Subtitle</p>
+                        </div>
+                        <div class="song text-center">
+                            <img src="./assets/img/split.jpeg" alt="">
+                            <h4 class="font-weight-bolder text-white">Split</h4>
+                            <p class="text-muted">Subtitle</p>
+                        </div>
+                        <div class="song text-center">
+                            <img src="./assets/img/cure.jpeg" alt="">
+                            <h4 class="font-weight-bolder text-white">Acure for wellness</h4>
+                            <p class="text-muted">Subtitle</p>
+                        </div>
+                        <div class="song text-center">
+                            <img src="./assets/img/sinister.jpeg" alt="">
+                            <h4 class="font-weight-bolder text-white">Sinister</h4>
+                            <p class="text-muted">Subtitle</p>
+                        </div>
+                    </div>
+
+
+                    <h2 class="font-weight-bolder text-white pl-3 py-5">Creato per John Doe</h2>
+                    <p class="pl-3 text-muted">Più ascolti, più accurati saranno i suggerimenti.</p>
+                    <div class="album">
+                        <div class="song text-center">
+                            <img src="./assets/img/radar.jpeg" alt="photo radar">
+                            <h4 class="font-weight-bolder text-white">Release Radar</h4>
+                        </div>
+                        <div class="song text-center">
+                            <img src="./assets/img/mixdaily.jpeg" alt="photo mix daily">
+                            <h4 class="font-weight-bolder text-white">Daily Mix 1</h4>
+                        </div>
+                    </div>
+
+                    <h2 class="font-weight-bolder text-white pl-3 py-5">Artisti più popolari</h2>
+                    <p class="pl-3 text-muted">Più ascolti, più accurati saranno i suggerimenti.</p>
+                    <div class="album">
+                        <div class="song text-center">
+                            <img class="rounded-circle" src="./assets/img/youg.jpeg" alt="photo radar">
+                            <h4 class="font-weight-bolder text-white">Youg</h4>
+                        </div>
+                        <div class="song text-center">
+                            <img class="rounded-circle" src="./assets/img/einaudi.jpeg" alt="photo mix daily">
+                            <h4 class="font-weight-bolder text-white">Einaudi</h4>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer class="dbg_footer">
+        </footer>
+    </div>
+    
+<!-- 
     <div class="row">
         
-        <!-- HEADER -->
+
         <header class="col-lg-2 bg_black">
-            <ul class="nav">
-                <li class="nav-item">
-                  <a class="nav-link logo py1" href="#">
-                      <img src="./assets/img/logo.svg" alt="logo spotify">
-                  </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link home text-muted" href="#">
-                        <img src="./assets/img/home.svg" alt="">
-                        Home
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link cerca text-muted" href="#">
-                        <img src="./assets/img/search.svg" alt="">
-                        Cerca
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link libreria text-muted" href="#">
-                        <img src="./assets/img/libreria.svg" alt="">
-                        La Tua Libreria
-                    </a>
-                </li>
-                <li><h6 class="px-3 pt-3 text-white font-weight-bolder">PLAYLIST</h6></li>
-                <li class="nav-item pt-1">
-                    <a class="nav-link new_playlist text-muted py-0" href="#">
-                        <i class="fas fa-plus-square fa-lg"></i>
-                        Crea Playlist
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-muted" href="#">Nome Playlist</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-muted" href="#">Nome Playlist</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-muted" href="#">Nome Playlist</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-muted" href="#">Nome Playlist</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-muted" href="#">Nome Playlist</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-muted" href="#">Nome Playlist</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-muted" href="#">Nome Playlist</a>
-                </li>
-             </ul>
         </header>
-        <!-- /HEADER -->
-            
-
-        <!-- MAIN -->
-
-        <main class="col-lg-10 px-0">
-
-            <!-- FIRST MAIN -->
-            <section class="dbg_upgrade">
-                <div class="btn_upgrade d-flex justify-content-end">
-                    <a class="text-white rounded-pill" href="">EFFETUA L'UPGRADE</a>
-                </div>
-            </section>
-            <!-- /FIRST MAIN -->
 
 
-            <!-- SECOND MAIN -->
-            <section class="bdg_principal_main">
-                <ul class="col-lg-12 pt-3 menu_main">
-                    <li><a class="text-muted px-2" href="#">IN EVIDENZA</a></li>
-                    <li><a class="text-muted px-2" href="#">PODCAST</a></li>
-                    <li><a class="text-muted px-2" href="#">CLASSIFICHE</a></li>
-                    <li><a class="text-muted px-2" href="#">GENERI E MOOD</a></li>
-                    <li><a class="text-muted px-2" href="#">NUOVE USCITE</a></li>
-                    <li><a class="text-muted px-2" href="#">SCOPRI</a></li>
-                </ul>
-                <h2 class="font-weight-bolder text-white pl-3 py-5">Recently Played</h2>
-                <div class="d-flex col-lg-12">
-                    <div class="song text-center">
-                        <img src="./assets/img/metal_lifting.jpg" alt="">
-                        <h4 class="font-weight-bolder text-white">Heavy Metal</h4>
-                        <p class="text-muted">Subtitle</p>
-                    </div>
-                    <div class="song text-center">
-                        <img src="./assets/img/stranger.jpeg" alt="">
-                        <h4 class="font-weight-bolder text-white">Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h4>
-                        <p class="text-muted">Kyle Dixon & Michael Stein</p>
-                    </div>
-                    <div class="song text-center">
-                        <img src="./assets/img/aquietplace.jpeg" alt="">
-                        <h4 class="font-weight-bolder text-white">A quiet place</h4>
-                        <p class="text-muted">Subtitle</p>
-                    </div>
-                    <div class="song text-center">
-                        <img src="./assets/img/split.jpeg" alt="">
-                        <h4 class="font-weight-bolder text-white">Split</h4>
-                        <p class="text-muted">Subtitle</p>
-                    </div>
-                    <div class="song text-center">
-                        <img src="./assets/img/cure.jpeg" alt="">
-                        <h4 class="font-weight-bolder text-white">Acure for wellness</h4>
-                        <p class="text-muted">Subtitle</p>
-                    </div>
-                    <div class="song text-center">
-                        <img src="./assets/img/sinister.jpeg" alt="">
-                        <h4 class="font-weight-bolder text-white">Sinister</h4>
-                        <p class="text-muted">Subtitle</p>
-                    </div>
-                </div>
-                <h2 class="font-weight-bolder text-white pl-3 py-5">Creato per John Doe</h2>
-                <p class="text-muted">Più ascolti, più accurati saranno i suggerimenti.</p>
-                <div class="d-flex col-lg-12">
-                    <div class="song text-center">
-                        <img src="./assets/img/radar.jpeg" alt="">
-                        <h4 class="font-weight-bolder text-white">Release Radar</h4>
-                    </div>
-                    <div class="song text-center">
-                        <img src="./assets/img/mixdaily.jpeg" alt="">
-                        <h4 class="font-weight-bolder text-white">Daily Mix 1</h4>
-                    </div>
-                </div>
-            </section>
-            <!-- /SECOND MAIN -->
 
-        </main>
-            <!-- /MAIN -->
+
+
+
+
+
+
+
+
     </div>
 
-
+ -->
 
 
 
 
     <!-- FOOTER -->
-    <footer>
-
-    </footer>
+<!--         <div class="col-lg-12">
+            <div class="row">
+                <div class="song_now">
+                    <img src="./assets/img/sinister.jpeg" alt="">
+                    <div class="title_song">
+                    </div>
+                </div>
+            </div>
+        </div> -->
     <!-- FOOTER -->
 
 </body>
