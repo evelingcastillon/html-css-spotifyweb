@@ -75,16 +75,6 @@ main::after {
     border: 2px solid white;
 }
 
-/* .new_playlist {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-}
-.new_playlist > i {
-    font-size: 27px;
-    padding-right: 0.8rem;
-} */
-
 /* SECON MAIN */
 .bdg_principal_main {
     background-color: rgba(20, 25, 34, 1);
@@ -93,6 +83,14 @@ main::after {
     display: flex;
     justify-content: center;
     list-style: none;
+}
+.menu_main > li > a {
+    color: lightslategray;
+    text-decoration: none;
+}
+
+.menu_main > li > a:hover {
+    color: white;
 }
 
 /* SONG */
@@ -159,6 +157,7 @@ footer {
 /* play_center */
 .menu_play {
     padding: 0 17rem;
+    margin-top: 0.5rem;
 }
 .menu_play > i {
     font-size: 1.5rem;
@@ -167,4 +166,15 @@ footer {
 }
 #play_start {
     font-size: 3rem;
+}
+.progress {
+    height: 2px;
+    margin: 0.5rem 0.5rem;
+}
+.under_play {
+    display: flex;
+    justify-content: center;
+}
+.under_play > span {
+    font-size: 10px;
 }
