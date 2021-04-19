@@ -26,7 +26,7 @@ main::after {
     clear: both;
 }
 .nav_black {
-    width: 300px;
+    width: 200px;
     height: 100%;
     float: left;
     background-color: rgba(0, 0, 0, 1);
@@ -60,7 +60,7 @@ main::after {
 
 /* content */
 .content {
-    width: calc(100% - 300px);
+    width: calc(100% - 200px);
     height: 100%;
     float: left;
     overflow-y: scroll;
@@ -100,28 +100,29 @@ main::after {
     flex-wrap: wrap;
 }
 .song {
-    width: 200px;
+    width: 150px;
     margin: 1rem;
     padding-left: 1rem;
+    margin: 1rem 2rem;
 }
 .song > h4 {
-    padding-top: 1rem;
+    padding-top: 3rem;
 }
 .img_song {
     position: relative;
 }
 .img_song > img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
 .black_play > i {
     color: white;
     font-size: 50px;
-    line-height: 200px;
+    line-height: 150px;
 }
 .black_play {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 0;
@@ -177,4 +178,23 @@ footer {
 }
 .under_play > span {
     font-size: 10px;
+}
+
+@media screen and  (min-width: 768px) and (max-width: 1199.98px) {
+    .menu_play {
+        padding: 0 10rem;
+        margin-top: 0.5rem;
+    }
+}
+@media screen and (max-width: 767.98px) {
+    .menu_play {
+        padding: 0 5rem;
+        margin-top: 0.5rem;
+    }
+}
+@media screen and (max-width: 575.98px) {
+    .menu_play {
+        padding: 0 0.5rem;
+        margin-top: 0.5rem;
+    }
 }
