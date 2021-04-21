@@ -197,4 +197,8 @@ footer {
         padding: 0 0.5rem;
         margin-top: 0.5rem;
     }
+    .progress {
+        height: 2px;
+        margin: 0.5rem 0;
+    }
 }
